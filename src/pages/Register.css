@@ -1,0 +1,31 @@
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+label.radio span {
+    padding: 8px 43px;
+    border: 1.5px solid #8F7AB2;
+    display: inline-block;
+    color: #68696B;
+    border-radius: 3px;
+    font-size: 10px!important;
+    font-weight: bold;
+}
+label.radio input:checked+span {
+    border-color: #D15D84;
+    background: linear-gradient(to right, rgba(242,82,106,1) 43%,rgba(218,18,107,1) 100%);
+    color: #ffc5d5;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}

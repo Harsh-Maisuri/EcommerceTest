@@ -1,0 +1,7 @@
+.card{
+    margin: 20px;
+}
+.cardmain{
+    display: flex;
+    flex-direction: row;
+}

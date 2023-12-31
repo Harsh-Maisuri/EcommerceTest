@@ -1,0 +1,36 @@
+.container_slider{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.ImgContainer{
+    height: 100%;
+  flex: 1;
+}
+
+.ImgContainer img{
+    height: 80%;
+}
+.InfoContainer{
+    flex: 1;
+  padding: 50px;
+}
+
+.InfoContainer h1{
+    font-size: 70px;
+}
+.InfoContainer p{
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.InfoContainer button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
